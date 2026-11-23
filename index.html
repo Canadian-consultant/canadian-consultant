@@ -262,6 +262,8 @@ body.arrange .dashh{display:block}body.arrange .dsec{position:relative;outline:1
 #bellPanel time{color:var(--sec);font-size:12px;grid-row:1}#bellPanel .bp{font-weight:600;font-size:12px;color:var(--accent);grid-row:1;grid-column:2}#bellPanel .bt2{grid-column:1/3}#bellPanel .em{color:var(--sec);padding:10px}
 @media print{#bellWrap{display:none!important}}
 
+.ver{margin-top:10px;font-size:11px;color:var(--sec);opacity:.8}
+
 
 #picker{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px 16px;background:var(--bg)}
 #home{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;background:#FBFAF6}
@@ -718,7 +720,7 @@ Object.assign(I18N.en,{"hideAct": "Hide", "showAct": "Show", "tcBtn": "Test conn
 Object.assign(I18N.en,{pgEdit:'Edit page',pgDone:'Done editing',addBlk:'Add block',bText:'Text',bImage:'Image',bGal:'Image gallery',bFiles:'Files and links',bTable:'Table',addPage:'+ Add page',newPage:'New page',
 pgName:'Page name',pgNameAr:'Arabic name',pgDel:'Delete page',pgDelQ:'Delete this page and everything on it?',up:'Move up',down:'Move down',blkDel:'Delete block',blkDelQ:'Delete this block?',width:'Width',ratio:'Image shape',cols:'Columns',
 titleEn:'Title',titleAr:'Arabic title',nothing:'Nothing added yet.',addImgs:'+ Add images',addImg:'+ Add image',replImg:'Replace image',addFile:'+ Upload file',addLink:'+ Add link',linkName:'Link name',linkUrl:'https://…',
-download:'Download',open:'Open',fileBig:'This file is larger than 1.4 MB. Add it as a link instead (for example a Google Drive link).',upBusy:'Uploading {n}…',upFail:'Upload failed: {x}',lastUpd:'Last update',
+download:'Download',open:'Open',fileBig:'This file is larger than 1.4 MB. Add it as a link instead (for example a Google Drive link).',upBusy:'Uploading {n}…',upFail:'Upload failed: {x}',lastUpd:'Last update',ver:'Version',
 oHero:'Project photos',oMain:'Set as main',oDefault:'Showing the default photos. Upload your own to replace them.',oTag:'Tagline',oName:'Project name',oProj:'Project',oParties:'Parties',oScope:'Scope',oCalc:'Calculated: towers × typical floors × apartments per floor',
 rowAdd:'+ Row',colAdd:'+ Column',rowDel:'− Row',colDel:'− Column',close:'Close',prev:'Previous',next:'Next',langSw:'Language',oEmpty:'Not set',oAddPh:'Add photos to show a project image here.',
 fType:'Type',fLocation:'Location',fPlot:'Plot area',fBuilt:'Built-up area',fHeight:'Height',fOwner:'Owner',fDeveloper:'Developer',fConsultant:'Consultant',fContractor:'Main contractor',fSubs:'Subcontractors',fTowers:'Towers',fTyp:'Typical floors per tower',fPark:'Parking floors',fBase:'Basements',fApf:'Apartments per floor',fTotal:'Total apartments',
@@ -727,7 +729,7 @@ dTeamH:'Name,Role,Company,Contact'});
 Object.assign(I18N.ar,{pgEdit:'تعديل الصفحة',pgDone:'إنهاء التعديل',addBlk:'إضافة قسم',bText:'نص',bImage:'صورة',bGal:'معرض صور',bFiles:'ملفات وروابط',bTable:'جدول',addPage:'+ إضافة صفحة',newPage:'صفحة جديدة',
 pgName:'اسم الصفحة',pgNameAr:'الاسم بالعربي',pgDel:'حذف الصفحة',pgDelQ:'حذف هذه الصفحة وكل ما فيها؟',up:'تحريك لأعلى',down:'تحريك لأسفل',blkDel:'حذف القسم',blkDelQ:'حذف هذا القسم؟',width:'العرض',ratio:'شكل الصورة',cols:'الأعمدة',
 titleEn:'العنوان',titleAr:'العنوان بالعربي',nothing:'لم يتم إضافة شيء بعد.',addImgs:'+ إضافة صور',addImg:'+ إضافة صورة',replImg:'استبدال الصورة',addFile:'+ رفع ملف',addLink:'+ إضافة رابط',linkName:'اسم الرابط',linkUrl:'https://…',
-download:'تنزيل',open:'فتح',fileBig:'حجم الملف أكبر من 1.4 ميجا. أضفه كرابط بدلًا من ذلك (مثل رابط Google Drive).',upBusy:'جارٍ الرفع {n}…',upFail:'فشل الرفع: {x}',lastUpd:'آخر تحديث',
+download:'تنزيل',open:'فتح',fileBig:'حجم الملف أكبر من 1.4 ميجا. أضفه كرابط بدلًا من ذلك (مثل رابط Google Drive).',upBusy:'جارٍ الرفع {n}…',upFail:'فشل الرفع: {x}',lastUpd:'آخر تحديث',ver:'Version',
 oHero:'صور المشروع',oMain:'اجعلها الرئيسية',oDefault:'تظهر الصور الافتراضية. ارفع صورك لاستبدالها.',oTag:'الوصف المختصر',oName:'اسم المشروع',oProj:'المشروع',oParties:'الأطراف',oScope:'النطاق',oCalc:'محسوب: الأبراج × الأدوار المتكررة × الشقق في الدور',
 rowAdd:'+ صف',colAdd:'+ عمود',rowDel:'− صف',colDel:'− عمود',close:'إغلاق',prev:'السابق',next:'التالي',langSw:'اللغة',oEmpty:'غير محدد',oAddPh:'أضف صورًا لتظهر صورة المشروع هنا.',
 fType:'النوع',fLocation:'الموقع',fPlot:'مساحة الأرض',fBuilt:'مساحة البناء',fHeight:'الارتفاع',fOwner:'المالك',fDeveloper:'المطوّر',fConsultant:'الاستشاري',fContractor:'المقاول الرئيسي',fSubs:'مقاولو الباطن',fTowers:'عدد الأبراج',fTyp:'الأدوار المتكررة لكل برج',fPark:'أدوار المواقف',fBase:'الأقبية',fApf:'الشقق في كل دور',fTotal:'إجمالي الشقق',
@@ -827,7 +829,7 @@ D.pages.order.forEach(id=>{const p=pgOf(id);if(!p)return;const b=h('button',{cla
 if(UNLOCK){nav.appendChild(h('button',{class:'nv',type:'button',onclick:addPage,style:'color:var(--accent)'},t('addPage')))}
 const f=$('sideFoot');f.innerHTML='';const u=fmtUpd(D.updated);if(u)f.appendChild(h('div',null,t('lastUpd')+': ',h('b',{style:'color:var(--ink)'},u)));
 if(UNLOCK)f.appendChild(h('button',{class:'chip tool',type:'button',onclick:testConn},t('tcBtn')));
-f.appendChild(h('button',{class:'chip tool',type:'button',onclick:()=>$('langBtn').click()},LANG()==='ar'?'English':'العربية'))}
+f.appendChild(h('button',{class:'chip tool',type:'button',onclick:()=>$('langBtn').click()},LANG()==='ar'?'English':'العربية'));f.appendChild(h('div',{class:'ver',dir:'ltr',title:t('ver')},t('ver')+': v1.1 · 24 Nov 2026'))}
 function syncSide(){const e=$('sideSync');if(!e)return;const m=($('syncMsg')||{}).textContent||'';e.textContent=UNLOCK?m:'';e.className='sync'+(/fail|Fail|فش/.test(m)?' err':'')}
 async function testConn(){const el=$('sideSync');el.className='sync';el.textContent=t('tcRun');let rd,wr;
 try{const j=await api({action:'check',key:KEY});rd=j.ok?t('tcReadOk')+(j.v?' (v'+j.v+')':' (v<8)'):t('tcKey')}catch(e){rd=t('tcReadNo')+': '+e.message}
